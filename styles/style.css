@@ -45,4 +45,63 @@ nav ul li a:hover {
 .banner .inner-banner h2 {
   font-size: 1.5rem;
   color: #7B2869;
+}
+
+#servicos {
+  margin-top: 5rem;
+}
+#servicos h4 {
+  font-size: 1.2rem;
+  color: #85586F;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin: 1rem;
+}
+#servicos h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 80px;
+  font-weight: 300;
+}
+#servicos .cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+#servicos .cards .card {
+  width: 30%;
+  text-align: center;
+}
+#servicos .cards .card .img-container {
+  padding-bottom: 2px;
+  border-bottom: 3px solid #DFD3C3;
+}
+#servicos .cards .card .img-container img {
+  max-width: 100%;
+}
+#servicos .cards .card h5 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: #85586F;
+}
+#servicos .cards .card p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #D0B8A8;
+  line-height: 2rem;
+}
+
+#cupom {
+  background-color: #DFD3C3;
+  padding: 4rem;
+  text-align: center;
+}
+#cupom .texto {
+  color: #85586F;
+}
+#cupom .texto h2 {
+  font-size: 1.7647058824rem;
+  margin: 2em;
 }/*# sourceMappingURL=style.css.map */

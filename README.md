@@ -27,6 +27,12 @@
 - Realizamos operações matemáticas para ajustar os tamanho dos textos das tags h1 e do h2;
 - Vimos de forma prática que as variáveis declaradas no nível superior de uma folha de estilo são globais, porém aqueles declarados em blocos geralmente são locais e só podem ser acessados dentro do bloco em que foram declarados.
 
+## Aula 4:
+> Criação do campo de cupom e alinhamento dos cards (`Infinitamente mais simples de estilizar`).
+
+- Modularizamos os códigos de estilo criando a partial de serviço e cupom;
+- Aplicamos os estilos nas imagens e nos textos melhorando a visibilidade do SPA.
+
 <hr />
 
 #### Palavras reservdas :

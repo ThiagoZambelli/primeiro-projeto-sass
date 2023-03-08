@@ -1,0 +1,55 @@
+@import '../abstract/variaveis';
+
+#servicos {
+    margin-top: 5rem;
+
+    h4 {
+        font-size: $tamanho-titulos / 2.5;
+        color: $cor-titulos;
+        text-transform: uppercase;
+        font-weight: 300;
+        text-align: center;
+        margin: 1rem;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: $tamanho-titulos / 1.2;
+        margin-bottom: 80px;
+        font-weight: 300;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: space-evenly;
+
+        .card {
+            width: 30%;
+            text-align: center;
+
+            .img-container {
+                padding-bottom: 2px;
+                border-bottom: 3px solid $cor-Secundaria;
+
+                img {
+                    max-width: 100%;
+                }
+            }
+
+            h5 {
+                font-size: $tamanho-titulos /1.5;
+                font-weight: 300;
+                margin-top: 1rem;
+                margin-bottom: .5rem;
+                color: $cor-titulos;
+            }
+
+            p{
+                font-size: $tamanho-titulos / 3;
+                font-weight: 300;
+                color: $cor-texto;
+                line-height: 2rem;
+            }
+        }
+    }
+}
