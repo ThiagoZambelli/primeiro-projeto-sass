@@ -12,4 +12,55 @@
             margin: 2em;
         }
     }
+
+    .input{
+        margin: 0 auto;
+        width: 50%;
+        border-radius: 15px;
+        border:  4px solid  $cor-titulos;
+        background-color: $cor-fundo;
+
+        input{
+            border-radius: 15px;
+            height: 40px;
+            border: none;
+            width: 90%;
+            outline: none;
+            text-align: center;
+            font-size: 26px;
+            background-color: transparent;                                  
+        }
+        &:focus-within{
+            border: 4px solid $cor-titulos-destaque;
+            box-shadow: 1px 1px 8px $cor-titulos;
+            outline: none;
+        }
+    }
+
+    button{
+        text-transform: uppercase;
+        margin-top: 1.5em;
+        outline: none;
+        padding: 1em 2em;
+        background-color: $cor-fundo;
+        opacity: 0.9;
+        border: 1px solid transparent;
+        border-radius: 20px;
+        cursor: pointer;
+        color: $cor-titulos;
+        letter-spacing: 0.2em;
+
+        &:hover{
+            transform: scale(1.02);
+            color: $cor-titulos-destaque;
+            border: 1px solid $cor-titulos-destaque;
+            font-weight: bold;
+
+        }
+        &:active{
+            background-color: $cor-titulos-destaque;
+            color: $cor-fundo;
+        }
+
+    }
 }

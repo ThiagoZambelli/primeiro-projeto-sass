@@ -33,6 +33,11 @@
 - Modularizamos os códigos de estilo criando a partial de serviço e cupom;
 - Aplicamos os estilos nas imagens e nos textos melhorando a visibilidade do SPA.
 
+## Aula 5:
+
+- Finalizamos a sessão de descontos, estilizando o input e o botão para cadastrar o email;
+- Estilizamos o footer da aplicação com um arquivo .sass e vimos como aplicar a sintaxe recuada de forma prática.
+
 <hr />
 
 #### Palavras reservdas :
@@ -46,3 +51,22 @@
 - ``@error`` ->	faz com que a compilação falhe com uma mensagem de erro.
 - ``@warn`` ->	imprime um aviso sem parar totalmente a compilação.
 - ``@debug`` ->	imprime uma mensagem para fins de debugging.
+
+#### If e Else
+
+- ##### @if
+> O padrão de escrita do if é @if < expression > { ... }, que controla se seu bloco é avaliado ou não (incluindo a emissão de qualquer estilo como CSS). A expressão geralmente retorna true ou false —se a expressão retornar true, o bloco será executado e, se a expressão retornar false, não será executado.
+
+- ##### @else
+> Já no caso do else, escrita é @else { ... }. O bloco desta regra é avaliado se a @if retornar falso.
+
+- ##### Exemplo prático
+> Na partial _footer,sass, vamos incluir um parâmetro para indicar o lado do gradiente, como ilustra o código abaixo:
+
+~~~scss
+@mixin bg-cores($lado, $cores...)
+    @if $lado == left
+        background: linear-gradient(to left, $cores)
+    @else 
+        background: linear-gradient(to right, $cores)
+~~~

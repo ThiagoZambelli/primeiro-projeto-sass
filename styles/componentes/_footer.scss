@@ -1,0 +1,18 @@
+@import '../abstract/variaveis';
+
+@mixin bg-cores($cores...){
+    background: linear-gradient(to left, $cores);
+}
+
+footer{
+    text-align: center;
+    font-size: $tamanho-titulos / 2;
+    border-top: 2px solid $cor-titulos;    
+    padding: 1.2rem;
+
+    @include bg-cores($cor-fundo, $cor-texto, $cor-fundo,$cor-Secundaria );
+
+    i{
+        color: red;
+    }
+}

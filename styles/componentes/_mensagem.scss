@@ -1,0 +1,39 @@
+@import '../abstract/variaveis';
+
+
+ .mensagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    column-gap: 2rem;
+    background-color: $cor-fundo-mensagem;
+
+    .mensagem-img{
+        width: 50%;
+        img{
+            border-radius: 20%;
+            max-width: 100%;
+        }
+    }
+    .mensagem-descricao{
+        width: 50%;
+        text-align: center;
+
+        h3{
+            font-size: $tamanho-titulos;
+            color: $cor-titulos;
+        }
+        h4{
+            font-size: $tamanho-titulos / 2.2;
+            color: $cor-titulos-destaque;
+            margin: 1em 0;
+            padding: 1em 0;
+            border-bottom: 2px solid $cor-titulos-destaque;
+        }
+        p{
+            color: $cor-texto;
+            line-height: 1em;
+        }
+    }
+ }

@@ -24,5 +24,10 @@
             font-size: $tamanho-titulos / 2;
             color: $cor-titulos-destaque;
         }
+
+        &:hover{
+            transform: scale(1.01);
+        }
+        
     }
 }
