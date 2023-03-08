@@ -1,6 +1,8 @@
 ![Alt text](img/readme-imgs/SASS%20projeto.png)
 <h1 align="center">Primeiro projeto de SASS<h1>
 
+<hr />
+
 ## Assuntos tratados no curso ->
 
 ### Aula 1:
@@ -17,3 +19,24 @@
 - Organizamos os arquivos de estilos criando partials, que contêm pequenos trechos de CSS que podem ser incluídos em outros arquivos Sass;
 - Modularizamos o CSS tornando as folhas de estilos mais fáceis de manter;
 - Estilizamos o navbar e incluímos o efeito hover através do operador &.
+
+## Aula 3:
+> Aula onde tratamos de escopo de varivais e a utilização das mesmas com formulas matematicas, como usar a divisao para garantir simetria no tamanho de fontes.
+
+- Criamos a partial para manter os estilos do banner e posicionamos a imagem e os textos;
+- Realizamos operações matemáticas para ajustar os tamanho dos textos das tags h1 e do h2;
+- Vimos de forma prática que as variáveis declaradas no nível superior de uma folha de estilo são globais, porém aqueles declarados em blocos geralmente são locais e só podem ser acessados dentro do bloco em que foram declarados.
+
+<hr />
+
+#### Palavras reservdas :
+- ``@use`` ->	carrega mixins, functions e variáveis de outras folhas de estilos Sass e combina o CSS de diversas folhas de estilo juntos.
+- ``@forward`` ->	carrega uma folha de estilo Sass e torna os mixins, functions e variáveis disponíveis quando a folha de estilo é carregada pela regra do @use.
+- ``@import`` ->	estende as regras de CSS para carregar styles, mixins, functions e variáveis de outras folhas de estilo.
+- ``@mixins`` -> e @include	facilitam a reutilização de trechos de código.
+- ``@function`` ->	define funções customizadas que podem ser utilizadas em expressões.
+- ``@extend`` ->	permite que os seletores herdem estilos uns dos outros.
+- ``@at-root`` ->	coloca estilos dentro dele na raiz do documento CSS.
+- ``@error`` ->	faz com que a compilação falhe com uma mensagem de erro.
+- ``@warn`` ->	imprime um aviso sem parar totalmente a compilação.
+- ``@debug`` ->	imprime uma mensagem para fins de debugging.

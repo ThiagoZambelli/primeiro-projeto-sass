@@ -1,9 +1,28 @@
+@import '../abstract/variaveis';
+
 .banner{
-    background: url(/imagens/banner.jpeg) 27% center no-repeat;
+    background: url(../imagens/banner.jpeg) 27% center no-repeat;
     min-height: 350px;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     opacity: 0.8;
+
+    .inner-banner{
+        padding: 3rem;
+        background-color: $cor-Secundaria;
+        opacity: 0.9;
+        border-radius: 50%;
+        text-align: center;
+
+        h1{
+            font-size: $tamanho-titulos;
+            color: $cor-titulos;
+        }
+        h2{
+            font-size: $tamanho-titulos / 2;
+            color: $cor-titulos-destaque;
+        }
+    }
 }
