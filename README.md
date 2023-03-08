@@ -1,6 +1,8 @@
 ![Alt text](img/readme-imgs/SASS%20projeto.png)
 <h1 align="center">Primeiro projeto de SASS<h1>
 
+## Projeto realizado por [Thiago zambelli](https://www.linkedin.com/in/thiagozambelli)
+
 <hr />
 
 ## Assuntos tratados no curso ->
