@@ -20,4 +20,14 @@ nav ul li a {
 nav ul li a:hover {
   color: #7B2869;
   border-bottom: 2px solid;
+}
+
+.banner {
+  background: url(/imagens/banner.jpeg) 27% center no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
 }/*# sourceMappingURL=style.css.map */
